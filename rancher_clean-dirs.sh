@@ -1,8 +1,7 @@
 #!/bin/sh
 
 if [ $(id -u) -ne 0 ]; then
-  echo "Must be run as root!"
-  echo "From Lavanya/forkin repo"
+  echo "From Lavanya/forkin repo in branch1"
   exit
 fi 
 
