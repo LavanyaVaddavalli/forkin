@@ -2,7 +2,7 @@
 
 CLIST=$(docker ps -qa)
 if [ "x"$CLIST == "x" ]; then
-  echo "No containers exist - skipping container cleanup"
+  echo "No containers exist to clean"
 else
   docker rm -f $CLIST
 fi
